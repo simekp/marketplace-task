@@ -1,0 +1,8 @@
+zonky.marketplace:
+          baseUrl: https://api.zonky.cz
+          marketEndpoint: /loans/marketplace
+          pageSize: 100
+          watchPeriod: 300000
+#          initialDate: 2018-11-08T10:00:00Z
+
+spring.main.web-application-type: NONE

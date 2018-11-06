@@ -1,0 +1,4 @@
+zonky.marketplace:
+          baseUrl: https://zonky.cz
+          marketEndpoint: /loans/marketplace
+          pageSize: 2
