@@ -12,6 +12,6 @@ ADD settings.gradle .
 
 RUN ./gradlew build
 
-CMD if [ $initialData ] ; then  ./gradlew bootRun -Pargs="--zonky.marketplace.initialDate=${initialDate}" ; else ./gradlew bootRun ; fi
+CMD if [ $initialDate ] ; then  ./gradlew bootRun -Pargs="--zonky.marketplace.initialDate=${initialDate}" ; else ./gradlew bootRun ; fi
 
 
